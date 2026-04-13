@@ -4,7 +4,7 @@ from groq import Groq
 st.set_page_config(page_title="JARVIS Jr AI", page_icon="🤖")
 st.title("🤖 JARVIS Jr AI Assistant")
 
-client = Groq(api_key=st.secrets["GROQ_API_KEY"])
+client = Groq(api_key=st.secrets["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"])
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
